@@ -1,5 +1,6 @@
 import "@testing-library/jest-dom";
 import { render, screen } from "@testing-library/react";
+import Links from "../components/Links"; // Check this import path
 
 import user from "../data/user";
 import About from "../components/About";
